@@ -1,3 +1,76 @@
-.test {
-  color: red;
+/**
+  |============================
+  | Section
+  |============================
+*/
+
+.section {
+  padding: 50px 0px 50px 0px;
+}
+
+.section:not(:first-of-type) {
+  background-color: grey;
+  margin-bottom: 30px;
+}
+
+.section:last-of-type {
+  margin-bottom: 0;
+}
+
+/**
+  |============================
+  | Form
+  |============================
+*/
+
+.title {
+  font-size: 40px;
+  font-weight: 600;
+  background: linear-gradient(to right, #ff7f50, #ffd700);
+  background-size: 200% auto;
+  transition: background-position 0.5s;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.title:hover {
+  background-position: right center;
+}
+
+.input_form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  gap: 15px;
+}
+
+.input_form-field {
+  width: 350px;
+  padding: 20px;
+  border: 1px solid;
+  transition: box-shadow 0.3s;
+}
+
+.input_form-field:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border-color: rgba(0, 0, 0, 0.3);
+}
+
+/**
+  |============================
+  | Sections - divs with colors
+  |============================
+*/
+
+.red {
+  background-color: red !important;
+}
+
+.yellow {
+  background-color: yellow !important;
+}
+
+.green {
+  background-color: green !important;
 }

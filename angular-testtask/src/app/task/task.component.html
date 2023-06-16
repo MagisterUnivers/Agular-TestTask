@@ -1,1 +1,19 @@
-<p class="test">task works!</p>
+<!-- Form with password input -->
+<section class="section">
+  <form class="input_form">
+    <label for="password" class="title">Password:</label>
+    <input
+      class="input_form-field"
+      type="password"
+      name="password"
+      #passwordInput
+      placeholder="Please, write your password"
+      (input)="handleCheckPasswordStrength()"
+    />
+  </form>
+</section>
+
+<!-- Colorful sections -->
+<section class="section" #section #redSection></section>
+<section class="section" #section #yellowSection></section>
+<section class="section" #section #greenSection></section>
