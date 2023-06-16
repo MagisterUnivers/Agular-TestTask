@@ -1,7 +1,7 @@
 # Angular-TestTask
 
 
-<h1>This is test task was made with 2 goals:</h2>
+<h2>This is test task was made with 2 goals:</h2>
 
 <ul>
   <li>Learn and watch the basics of Angular framework</li>
