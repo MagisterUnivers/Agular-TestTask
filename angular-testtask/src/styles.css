@@ -5,4 +5,5 @@ body {
   background-image: url('./beautiful-night.png');
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
