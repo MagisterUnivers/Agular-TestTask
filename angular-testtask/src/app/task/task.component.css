@@ -8,6 +8,13 @@
   padding: 50px 0px 50px 0px;
 }
 
+.section:hover:not(:first-of-type) {
+  background-color: #f1f1f1;
+  border-color: #ff0000;
+  opacity: 0.8;
+  color: #ff00ff;
+}
+
 .section:not(:first-of-type) {
   background-color: grey;
   margin-bottom: 30px;
